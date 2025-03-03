@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ryan Park's Portfolio Website</title>
+
+  <!-- Bootstrap CSS -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+  />
+  <!-- Font Awesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- 고정 내비게이션 -->
+  <nav class="navbar navbar-expand-md navbar-dark bg-black fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">My Portfolio</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#resume">Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Introduction -->
+  <section id="about" class="introduction-section d-flex flex-column justify-content-center align-items-center text-center">
+    <h1 class="mb-3">Hi, I'm Ryan Park</h1>
+    <p class="mb-4 fs-5">
+      Software Developer Student | Creative Problem Solver | Technology Lover
+    </p>
+    <div class="col-10 col-md-6 mx-auto">
+      <p class="mb-3">
+        Originally from South Korea and now proudly based in Waterdown, Ontario, I bring a unique perspective to software development through my diverse background and experiences.
+      </p>
+      <p class="mb-3">
+        My journey has been shaped by my education in Hospitality and Tourism Management at George Brown College and Photography at Seneca College, before discovering my passion for programming. This diverse background enables me to approach technical challenges with a creative and user-focused mindset.
+      </p>
+      <p>
+        As a dedicated father of two and an enthusiastic programmer, I combine my strong work ethic with a genuine excitement for creating innovative solutions. I specialize in full-stack development, transforming complex technical challenges into intuitive, user-friendly applications that deliver exceptional value.
+      </p>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="container text-center py-5">
+    <h2 class="section-title mb-4">Education</h2>
+    
+    <div class="education-item text-start mb-4">
+      <h4>Mohawk College</h4>
+      <p class="text-orange mb-2">Computer Systems Technician - Software Support</p>
+      <p class="skills">Key Skills: Python, HTML, CSS, JavaScript, PHP, MySQL, Java, C#, Networking, Virtual Machines</p>
+    </div>
+
+    <div class="education-item text-start mb-4">
+      <h4>Seneca Polytechnic</h4>
+      <p class="text-orange mb-2">Photography</p>
+      <p class="skills">Key Skills: Adobe Photoshop, Digital Photography, Studio Lighting</p>
+    </div>
+
+    <div class="education-item text-start mb-4">
+      <h4>George Brown College</h4>
+      <p class="text-orange mb-2">Tourism and Hospitality Management</p>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="container text-center py-5">
+    <h2 class="section-title mb-4">Skills</h2>
+    <div class="skills d-flex flex-wrap justify-content-center">
+      <div class="skill me-3 mb-3">
+        <i class="fab fa-html5 fa-2x"></i><span>HTML</span>
+      </div>
+      <div class="skill me-3 mb-3">
+        <i class="fab fa-css3-alt fa-2x"></i><span>CSS</span>
+      </div>
+      <div class="skill me-3 mb-3">
+        <i class="fab fa-js-square fa-2x"></i><span>JavaScript</span>
+      </div>
+      <div class="skill me-3 mb-3">
+        <i class="fab fa-react fa-2x"></i><span>React</span>
+      </div>
+      <div class="skill me-3 mb-3">
+        <i class="fab fa-bootstrap fa-2x"></i><span>Bootstrap</span>
+      </div>
+      <div class="skill me-3 mb-3">
+        <i class="fab fa-python fa-2x"></i><span>Python</span>
+      </div>
+      <div class="skill me-3 mb-3">
+        <i class="fab fa-java fa-2x"></i><span>Java</span>
+      </div>
+      <div class="skill me-3 mb-3">
+        <i class="fab fa-windows fa-2x"></i><span>C#</span>
+      </div>
+      <div class="skill me-3 mb-3">
+        <i class="fab fa-linux fa-2x"></i><span>Linux</span>
+      </div>
+      <div class="skill me-3 mb-3">
+        <i class="fab fa-apple fa-2x"></i><span>iOS</span>
+      </div>
+      <div class="skill me-3 mb-3">
+        <i class="fas fa-database fa-2x"></i><span>SQL</span>
+      </div>
+      <div class="skill me-3 mb-3">
+        <i class="fab fa-git-alt fa-2x"></i><span>Git/GitHub</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="container text-center py-5">
+    <h2 class="section-title mb-4">Projects</h2>
+    <div class="row justify-content-center">
+      <!-- Project 1: Niagara Wineries Map -->
+      <div class="col-md-5 mb-3">
+        <div class="card p-3 h-100">
+          <h3 class="card-title">Niagara Wineries Interactive Map</h3>
+          <p class="card-text">
+            Developed an interactive web application using Google Maps API to help tourists and locals discover wineries in the Niagara-on-the-Lake area. Features include:
+          </p>
+          <ul class="text-start mb-3">
+            <li>Interactive map with winery markers and filtering options</li>
+            <li>Category-based filtering (Organic, With Tours, Restaurant)</li>
+            <li>User location integration and directions feature</li>
+            <li>User-contributed winery submissions</li>
+          </ul>
+          <div class="mt-auto">
+            <p class="card-text mb-3">
+              <small class="text-white">Technologies: JavaScript, Google Maps API, HTML/CSS</small>
+            </p>
+            <a href="https://github.com/rjhparkk/Map-Application" target="_blank" class="btn btn-light">View Project Repository</a>
+          </div>
+        </div>
+      </div>
+      <!-- Project 2: What to Wear App -->
+      <div class="col-md-5 mb-3">
+        <div class="card p-3 h-100">
+          <h3 class="card-title">What to Wear - iOS App Concept</h3>
+          <p class="card-text">
+            Innovative iOS application concept that combines weather data with personal wardrobe management to provide smart outfit recommendations.
+          </p>
+          <ul class="text-start mb-3">
+            <li>Weather-based outfit suggestions</li>
+            <li>Personal wardrobe digitalization</li>
+            <li>AI-powered style matching</li>
+            <li>Premium feature: Access to professional stylists</li>
+          </ul>
+          <div class="mt-auto">
+            <p class="card-text mb-3">
+              <small class="text-white">Technologies: Swift, iOS Development, Weather API Integration</small>
+            </p>
+            <a href="#" class="btn btn-light disabled">Concept Project</a>
+          </div>
+        </div>
+      </div>
+      <!-- Project 3: Smart Home Energy Monitor -->
+      <div class="col-md-5 mb-3">
+        <div class="card p-3 h-100">
+          <h3 class="card-title">Smart Home Energy Monitor</h3>
+          <p class="card-text">
+            A full-stack IoT solution for monitoring and optimizing home energy consumption using machine learning algorithms.
+          </p>
+          <ul class="text-start mb-3">
+            <li>Real-time energy usage monitoring and analytics</li>
+            <li>Predictive consumption patterns using Python ML</li>
+            <li>Mobile-responsive dashboard with React</li>
+            <li>Automated energy-saving recommendations</li>
+          </ul>
+          <div class="mt-auto">
+            <p class="card-text mb-3">
+              <small class="text-white">Technologies: Python, React, TensorFlow, SQL Database</small>
+            </p>
+            <a href="#" class="btn btn-light disabled">Concept Project</a>
+          </div>
+        </div>
+      </div>
+      <!-- Project 4: Community Recipe Sharing Platform -->
+      <div class="col-md-5 mb-3">
+        <div class="card p-3 h-100">
+          <h3 class="card-title">Community Recipe Sharing Platform</h3>
+          <p class="card-text">
+            A web-based platform that connects food enthusiasts, allowing them to share, discover, and collaborate on recipes.
+          </p>
+          <ul class="text-start mb-3">
+            <li>User authentication and profile management</li>
+            <li>Recipe creation with rich text and image upload</li>
+            <li>Social features: comments, ratings, and sharing</li>
+            <li>Advanced recipe search and filtering system</li>
+          </ul>
+          <div class="mt-auto">
+            <p class="card-text mb-3">
+              <small class="text-white">Technologies: C#, .NET Core, SQL Server, Bootstrap</small>
+            </p>
+            <a href="#" class="btn btn-light disabled">Concept Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resume -->
+  <section id="resume" class="container text-center py-5">
+    <h2 class="section-title mb-4">Resume</h2>
+    
+    <div class="resume-download text-center">
+      <p class="mb-4">Download my complete resume for more detailed information about my experience and qualifications.</p>
+      <a href="assets/resume.pdf" class="btn btn-light btn-lg" target="_blank">
+        <i class="fas fa-download me-2"></i>Download Resume (PDF)
+      </a>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="container text-center py-5">
+    <h2 class="section-title mb-4">Contact Information</h2>
+    
+    <div class="contact-intro mb-5">
+      <p class="mb-4">I'm always interested in hearing about new opportunities, collaborations, or just connecting with fellow developers. Feel free to reach out through any of the following channels:</p>
+      
+      <div class="contact-details mb-4">
+        <p class="mb-2">
+          <i class="fas fa-envelope text-orange me-2"></i>
+          <strong>Email:</strong> 
+          <a href="mailto:rjanghunpark@gmail.com" class="text-light">rjanghunpark@gmail.com</a>
+        </p>
+        <p class="mb-2">
+          <i class="fab fa-linkedin text-orange me-2"></i>
+          <strong>LinkedIn:</strong>
+          <a href="https://www.linkedin.com/in/ryan-janghun-park-271611182/" class="text-light">Ryan Janghun Park</a>
+        </p>
+        <p class="mb-2">
+          <i class="fas fa-map-marker-alt text-orange me-2"></i>
+          <strong>Location:</strong> Waterdown, Ontario, Canada
+        </p>
+      </div>
+      
+      <p class="mb-4">Prefer to send a direct message? Use the form below and I'll get back to you as soon as possible.</p>
+    </div>
+
+    <!-- Contact Form -->
+    <form class="mx-auto contact-form" style="max-width: 400px;">
+      <div class="mb-3">
+        <label for="fullName" class="form-label text-start d-block">Full Name</label>
+        <input 
+          type="text" 
+          id="fullName"
+          class="form-control bg-dark text-white" 
+          placeholder="Enter your full name" 
+        />
+        <small class="text-muted d-block text-start">Let me know what to call you</small>
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label text-start d-block">Email Address</label>
+        <input 
+          type="email" 
+          id="email"
+          class="form-control bg-dark text-white" 
+          placeholder="your.email@example.com"
+        />
+        <small class="text-muted d-block text-start">I'll use this to respond to your message</small>
+      </div>
+      <div class="mb-3">
+        <label for="message" class="form-label text-start d-block">Message</label>
+        <textarea 
+          id="message"
+          class="form-control bg-dark text-white" 
+          rows="4" 
+          placeholder="Tell me about your project, opportunity, or just say hi!"
+        ></textarea>
+        <small class="text-muted d-block text-start">Share as much detail as you'd like</small>
+      </div>
+      <button type="submit" class="btn btn-light">Send Message</button>
+    </form>
+  </section>
+
+  <footer class="bg-black text-white text-center p-3 mt-3">
+    <p>&copy; 2025 Ryan Janghun Park. All rights reserved.</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+</html>
